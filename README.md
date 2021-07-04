@@ -51,7 +51,7 @@ Dev dependencies:
 ### Structure
 
 The project is structured with views and components. The views are the pages that we see and these use the components if is necessary.  
-All the request are called from middleware redux-saga.  
+All the API request are called from middleware redux-saga. Also, the GET requets have a internal local storage cache of 1 hour.    
 React-router-dom was use to router the web located in App.jsx.  
 The project has a file .env with a unique constant => REACT_APP_API.  
 
@@ -69,3 +69,7 @@ Item: To show one item in view home where we see all the devices.
 ListItem: The component which render all the Item component.  
 Modal: To show alert messages.  
 Searcher: The searcher in view home.  
+
+### Test
+
+This project has no tests.
