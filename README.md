@@ -27,7 +27,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm lint`
+### `npm run lint`
 
 The eslint that the project has configured will be executed and it will fix the warnings that are possible.
 
